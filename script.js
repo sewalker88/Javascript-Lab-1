@@ -1,3 +1,5 @@
+"use strict";
+
 const fullName = "shawna walker";
 let age = 0;
 const birthDay ="May 15";
@@ -10,6 +12,7 @@ if (detroitGC){
 else {
     console.log( ` My name is ${fullName} and I'am a student at Grand Circus in Grand Rapids. I am currently ${age} years old and my birthday is on ${birthDay}`);
 }
+//this is where I start to have trouble.
 
 for (i=0;i<lifeEvents.length;i++){
     console.log(lifeEvents[i]);
@@ -23,13 +26,12 @@ if(randomNumber!==5){
     console.log(`${randomNumber}!==5`);
 } else{
     counter++;
-    console.log(
-        `5===5, It took ${counter} iterations to randomly generate the number 5.`
+    console.log( `5===5, It took ${counter} iterations to randomly generate the number 5`
     );
     break;
 }
 }
-
+//I have no clue
 let hours=20;
 let wage=10;
 let totalPayCheck=0;
